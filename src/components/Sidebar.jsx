@@ -16,7 +16,7 @@ const Sidebar = ({ open = false, setOpen }) => {
         >
           <div
             id="sidebar"
-            className={`fixed right-0 top-0 w-[250px] h-screen bg-almost-white pt-20 p-8 z-50`}
+            className={`overflow-auto right-0 top-0 w-[250px] h-screen bg-almost-white pt-20 p-8 z-50`}
           >
             <button
               onClick={() => setOpen(false)}
@@ -35,7 +35,9 @@ const Sidebar = ({ open = false, setOpen }) => {
                   {({ open }) => (
                     <>
                       <Disclosure.Button className="flex items-center text-left">
-                        <span className="mr-4">Features</span>
+                        <span className="mr-4 cursor-pointer hover:text-white hover:bg-lime-900">
+                          Home
+                        </span>
                         <img
                           clasName=""
                           src={`images/icon-arrow-${open ? "up" : "down"}.svg`}
@@ -44,37 +46,78 @@ const Sidebar = ({ open = false, setOpen }) => {
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
                         <ul className="flex flex-col space-y-3">
-                          <li className="cursor-pointer">
-                            <img
-                              src="images/icon-todo.svg"
-                              className="inline w-4 mr-3"
-                              alt="Todo List Icon"
-                            />
-                            Todo list
+                          <a href="/">
+                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                              Home
+                            </li>
+                          </a>
+                          <a href="/about">
+                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                              About
+                            </li>
+                          </a>
+                          <a href="/cancer">
+                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                              Cancer
+                            </li>
+                          </a>
+                          <a href="/gods">
+                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                              GODS
+                            </li>
+                          </a>
+                          <a href="/careers">
+                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                              Careers
+                            </li>
+                          </a>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            5 Our Team
                           </li>
-                          <li className="cursor-pointer">
-                            <img
-                              src="images/icon-calendar.svg"
-                              className="inline w-4 mr-3"
-                              alt="Calendar Icon"
-                            />
-                            Calendar
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            6 Blog
                           </li>
-                          <li className="cursor-pointer">
-                            <img
-                              src="images/icon-reminders.svg"
-                              className="inline w-4 mr-3"
-                              alt="Reminders Icon"
-                            />
-                            Reminders
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            7 History
                           </li>
-                          <li className="cursor-pointer">
-                            <img
-                              src="images/icon-planning.svg"
-                              className="inline w-4 mr-3"
-                              alt="Planning Icon"
-                            />
-                            Planning
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            8 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            9 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            10 Blogs
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            1 History
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            2 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            3 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            4 History
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            5 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            6 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            7 History
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            8 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            9 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            10 Blogs
                           </li>
                         </ul>
                       </Disclosure.Panel>
@@ -87,7 +130,9 @@ const Sidebar = ({ open = false, setOpen }) => {
                   {({ open }) => (
                     <>
                       <Disclosure.Button className="flex items-center text-left">
-                        <span className="mr-4">Company</span>
+                        <span className="mr-4 cursor-pointer hover:text-white hover:bg-lime-900">
+                          CDS MMS
+                        </span>
                         <img
                           clasName=""
                           src={`images/icon-arrow-${open ? "up" : "down"}.svg`}
@@ -96,28 +141,261 @@ const Sidebar = ({ open = false, setOpen }) => {
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
                         <ul className="flex flex-col space-y-3">
-                          <li className="cursor-pointer">History</li>
-                          <li className="cursor-pointer">Our Team</li>
-                          <li className="cursor-pointer">Blog</li>
+                          <a href="/">
+                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                              Home
+                            </li>
+                          </a>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            1 History
+                          </li>
+                          <a href="/med-bed">
+                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                              Med-Bed
+                            </li>
+                          </a>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            3 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            4 History
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            5 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            6 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            7 History
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            8 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            9 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            10 Blogs
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            1 History
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            2 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            3 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            4 History
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            5 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            6 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            7 History
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            8 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            9 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            10 Blogs
+                          </li>
                         </ul>
                       </Disclosure.Panel>
                     </>
                   )}
                 </Disclosure>
               </li>
-              <li>Careers</li>
-              <li>About</li>
+              <li>
+                <Disclosure>
+                  {({ open }) => (
+                    <>
+                      <Disclosure.Button className="flex items-center text-left">
+                        <span className="mr-4 cursor-pointer hover:text-white hover:bg-lime-900">
+                          NO VIRUS
+                        </span>
+                        <img
+                          clasName=""
+                          src={`images/icon-arrow-${open ? "up" : "down"}.svg`}
+                          alt="Arrow"
+                        />
+                      </Disclosure.Button>
+                      <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                        <ul className="flex flex-col space-y-3">
+                          <a href="/">
+                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                              NO VIRUS
+                            </li>
+                          </a>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            1 History
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            2 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            3 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            4 History
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            5 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            6 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            7 History
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            8 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            9 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            10 Blogs
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            1 History
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            2 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            3 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            4 History
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            5 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            6 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            7 History
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            8 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            9 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            10 Blogs
+                          </li>
+                        </ul>
+                      </Disclosure.Panel>
+                    </>
+                  )}
+                </Disclosure>
+              </li>
+              <li>
+                <Disclosure>
+                  {({ open }) => (
+                    <>
+                      <Disclosure.Button className="flex items-center text-left">
+                        <span className="mr-4 cursor-pointer hover:text-white hover:bg-lime-900">
+                          GODS
+                        </span>
+                        <img
+                          clasName=""
+                          src={`images/icon-arrow-${open ? "up" : "down"}.svg`}
+                          alt="Arrow"
+                        />
+                      </Disclosure.Button>
+                      <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                        <ul className="flex flex-col space-y-3">
+                          <a href="/gods">
+                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                              GODS
+                            </li>
+                          </a>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            1 History
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            2 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            3 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            4 History
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            5 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            6 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            7 History
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            8 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            9 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            10 Blogs
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            1 History
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            2 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            3 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            4 History
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            5 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            6 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            7 History
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            8 Our Team
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            9 Blog
+                          </li>
+                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            10 Blogs
+                          </li>
+                        </ul>
+                      </Disclosure.Panel>
+                    </>
+                  )}
+                </Disclosure>
+              </li>
+              <li className="mr-4 cursor-pointer hover:text-white hover:bg-lime-900">
+                INDEX
+              </li>
+              <li>----</li>
             </ul>
 
             <div className="flex flex-col space-y-5 items-center justify-items-center pt-8">
-              <div className="hover:text-almost-black cursor-pointer">
-                Login
-              </div>
-              <div className="w-full">
-                <button className="w-full border-2 hover:border-almost-black hover:text-almost-black rounded-xl px-4 py-2">
-                  Register
-                </button>
-              </div>
+              <div className="w-full"></div>
             </div>
           </div>
           {/* ... */}

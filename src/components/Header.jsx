@@ -8,34 +8,36 @@ const Header = () => {
   return (
     <header className="container">
       <div className="flex py-5 px-3">
-        <div className="flex items-center pt-3">
-          <img src="images/logo.svg" alt="Snap Logo" />
+        <div className="flex items-center pt-3 text-3xl">
+          <a href="./">
+            <span className="cursor-pointer hover:text-white hover:bg-lime-900 hover:text-4xl">
+              GOESDEEP.win
+            </span>
+          </a>
+          &#160;&#160;&#160;
+          <a href="./">
+            <span className="cursor-pointer hover:text-white hover:bg-lime-900">
+              INDEX
+            </span>
+          </a>
         </div>
         <div className="flex-grow flex items-center z-20">
           <NavMenu />
         </div>
-        <div className="flex items-center">
+
+        <div className="flex items-center text-xl">
           <button
             onClick={() => setOpen(true)}
             aria-expanded={open}
             aria-controls="sidebar"
             aria-label="Open Menu"
           >
-            <img
-              className="block lg:hidden"
-              src="images/icon-menu.svg"
-              alt="Menu"
-            />
+            <span className="cursor-pointer hover:text-white hover:bg-lime-900">
+              MENU
+            </span>
           </button>
+
           <Sidebar open={open} setOpen={setOpen} />
-          <div className="hidden lg:flex lg:space-x-10 lg:items-center">
-            <div className="hover:text-almost-black cursor-pointer">Login</div>
-            <div>
-              <button className="border-2 hover:border-almost-black hover:text-almost-black rounded-xl px-4 py-2">
-                Register
-              </button>
-            </div>
-          </div>
         </div>
       </div>
     </header>
