@@ -307,7 +307,7 @@ const Sidebar = ({ open = false, setOpen }) => {
                     <>
                       <Disclosure.Button className="flex items-center text-left">
                         <span className="mr-4 cursor-pointer hover:text-white hover:bg-lime-900">
-                          GODS
+                          GOES DEEP
                         </span>
                         <img
                           clasName=""
@@ -317,6 +317,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
                         <ul className="flex flex-col space-y-3">
+                          <a href="/goesdeep">
+                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                              GOES DEEP
+                            </li>
+                          </a>
                           <a href="/gods">
                             <li className="cursor-pointer hover:text-white hover:bg-lime-900">
                               GODS

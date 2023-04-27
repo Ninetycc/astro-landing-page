@@ -24,15 +24,13 @@ const { title } = Astro.props;
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./images/android-chrome-512x512.png"
     />
 
     <title>{title}</title>
   </head>
 
-  <body class="text-medium-gray bg-almost-white z-0">
-    <section className="text-gray-600 body-font font-poppins">
-      <slot />
-    </section>
+  <body class="text-medium-gray bg-almost-white z-0 body-font font-poppins">
+    <slot />
   </body>
 </html>
