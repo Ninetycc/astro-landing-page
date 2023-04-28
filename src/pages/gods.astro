@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 ---
 
 <Layout title="About Page | Intro section with dropdown navigation.">
@@ -104,3 +105,4 @@ import Header from "../components/Header";
     </div>
   </main>
 </Layout>
+<Footer client:only="react" />

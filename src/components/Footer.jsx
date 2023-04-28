@@ -2,15 +2,15 @@ import NavMenu from "./NavMenu.jsx";
 import { useState } from "react";
 import Sidebar from "./Sidebar.jsx";
 
-const Header = () => {
+const Footer = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="container">
+    <footer className="container">
       <div className="flex py-5 px-3">
         <div className="flex items-center pt-3 text-3xl">
           <a href="./">
-            <span className="font-paint cursor-pointer hover:text-white hover:bg-black">
+            <span className="font-paint cursor-pointer hover:text-white hover:bg-lime-900 hover:text-4xl">
               GOESDEEP.win
             </span>
           </a>
@@ -40,8 +40,8 @@ const Header = () => {
           <Sidebar open={open} setOpen={setOpen} />
         </div>
       </div>
-    </header>
+    </footer>
   );
 };
 
-export default Header;
+export default Footer;

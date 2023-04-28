@@ -47,7 +47,7 @@ const Sidebar = ({ open = false, setOpen }) => {
                       <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
                         <ul className="flex flex-col space-y-3">
                           <a href="/">
-                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Home
                             </li>
                           </a>
@@ -56,16 +56,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               About
                             </li>
                           </a>
-                          <a href="/cancer">
-                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                              Cancer
+                          <a href="/Apricot-Seeds">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Apricot Seeds
                             </li>
                           </a>
-                          <a href="/gods">
-                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                              GODS
-                            </li>
-                          </a>
+
                           <a href="/careers">
                             <li className="cursor-pointer hover:text-white hover:bg-lime-900">
                               Careers
@@ -73,51 +69,6 @@ const Sidebar = ({ open = false, setOpen }) => {
                           </a>
                           <li className="cursor-pointer hover:text-white hover:bg-lime-900">
                             5 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            6 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            7 History
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            8 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            9 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            10 Blogs
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            1 History
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            2 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            3 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            4 History
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            5 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            6 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            7 History
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            8 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            9 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            10 Blogs
                           </li>
                         </ul>
                       </Disclosure.Panel>
@@ -160,54 +111,6 @@ const Sidebar = ({ open = false, setOpen }) => {
                           <li className="cursor-pointer hover:text-white hover:bg-lime-900">
                             4 History
                           </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            5 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            6 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            7 History
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            8 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            9 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            10 Blogs
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            1 History
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            2 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            3 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            4 History
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            5 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            6 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            7 History
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            8 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            9 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            10 Blogs
-                          </li>
                         </ul>
                       </Disclosure.Panel>
                     </>
@@ -218,7 +121,7 @@ const Sidebar = ({ open = false, setOpen }) => {
                 <Disclosure>
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex items-center text-left">
+                      <Disclosure.Button className="flex items-center text-left ">
                         <span className="mr-4 cursor-pointer hover:text-white hover:bg-lime-900">
                           NO VIRUS
                         </span>
@@ -237,63 +140,6 @@ const Sidebar = ({ open = false, setOpen }) => {
                           </a>
                           <li className="cursor-pointer hover:text-white hover:bg-lime-900">
                             1 History
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            2 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            3 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            4 History
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            5 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            6 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            7 History
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            8 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            9 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            10 Blogs
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            1 History
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            2 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            3 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            4 History
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            5 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            6 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            7 History
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            8 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            9 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            10 Blogs
                           </li>
                         </ul>
                       </Disclosure.Panel>
@@ -318,7 +164,7 @@ const Sidebar = ({ open = false, setOpen }) => {
                       <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
                         <ul className="flex flex-col space-y-3">
                           <a href="/goesdeep">
-                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               GOES DEEP
                             </li>
                           </a>
@@ -327,66 +173,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               GODS
                             </li>
                           </a>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            1 History
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            2 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            3 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            4 History
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            5 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            6 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            7 History
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            8 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            9 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            10 Blogs
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            1 History
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            2 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            3 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            4 History
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            5 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            6 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            7 History
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            8 Our Team
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            9 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            10 Blogs
-                          </li>
+                          <a href="/bluewater">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Bluewater
+                            </li>
+                          </a>
                         </ul>
                       </Disclosure.Panel>
                     </>

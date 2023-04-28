@@ -10,6 +10,14 @@ module.exports = {
         "medium-gray": "hsl(0, 0%, 41%)",
         "almost-black": "hsl(0, 0%, 8%)",
       },
+
+      fontFamily: {
+        libre: ["Libre Baskerville", "serif"],
+        lacquer: ["Lacquer", "cursive"],
+        poppins: ["Poppins", "sans-serif"],
+        glitch: ["Rubik Glitch", "cursive"],
+        paint: ["Rubik Wet Paint", "cursive"],
+      },
     },
   },
   plugins: [],
